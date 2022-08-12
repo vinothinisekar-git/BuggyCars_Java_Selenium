@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="relevantcodes.extentreports" type="repository">
+    <properties maven-id="com.relevantcodes:extentreports:2.40.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

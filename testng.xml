@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+
+  <test name="Test-Keyword">
+    <classes>
+      <class name="keyword.RunScripts" />
+    </classes>
+  </test> <!-- Test- Keyword -->
+
+  <test name="Test-POM">
+    <classes>
+      <class name="testcases.TC002_LoginLogoutUser" />
+      <class name="testcases.TC003_RatingByModel" />
+      <class name="testcases.TC004_RatingByMake" />
+      <class name="testcases.TC005_UpdateUserProfile" />
+
+    </classes>
+  </test> <!-- Test POM -->
+
+</suite> <!-- Suite -->

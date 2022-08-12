@@ -1,0 +1,287 @@
+"C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe" -ea -Didea.test.cyclic.buffer.size=1048576 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\lib\idea_rt.jar=51640:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\plugins\testng\lib\testng-rt.jar;C:\Users\sekars\IdeaProjects\BuggyCarsTestAutomation\target\classes;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-java\4.2.1\selenium-java-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-api\4.2.1\selenium-api-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.2.1\selenium-devtools-v100-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.2.1\selenium-devtools-v101-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.2.1\selenium-devtools-v102-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.2.1\selenium-devtools-v85-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.2.1\selenium-edge-driver-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.2.1\selenium-firefox-driver-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.2.1\selenium-ie-driver-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.2.1\selenium-opera-driver-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.2.1\selenium-remote-driver-4.2.1.jar;C:\Users\sekars\.m2\repository\io\netty\netty-buffer\4.1.77.Final\netty-buffer-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-codec-http\4.1.77.Final\netty-codec-http-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-codec\4.1.77.Final\netty-codec-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-handler\4.1.77.Final\netty-handler-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-common\4.1.77.Final\netty-common-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.77.Final\netty-transport-classes-epoll-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.77.Final\netty-transport-classes-kqueue-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-transport-native-epoll\4.1.77.Final\netty-transport-native-epoll-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.77.Final\netty-transport-native-kqueue-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.77.Final\netty-transport-native-unix-common-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-transport\4.1.77.Final\netty-transport-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-resolver\4.1.77.Final\netty-resolver-4.1.77.Final.jar;C:\Users\sekars\.m2\repository\io\opentelemetry\opentelemetry-api\1.14.0\opentelemetry-api-1.14.0.jar;C:\Users\sekars\.m2\repository\io\opentelemetry\opentelemetry-context\1.14.0\opentelemetry-context-1.14.0.jar;C:\Users\sekars\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.14.0\opentelemetry-exporter-logging-1.14.0.jar;C:\Users\sekars\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.14.0\opentelemetry-sdk-metrics-1.14.0.jar;C:\Users\sekars\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.14.0-alpha\opentelemetry-sdk-logs-1.14.0-alpha.jar;C:\Users\sekars\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.14.0\opentelemetry-sdk-common-1.14.0.jar;C:\Users\sekars\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.14.0\opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar;C:\Users\sekars\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.14.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar;C:\Users\sekars\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.14.0\opentelemetry-sdk-trace-1.14.0.jar;C:\Users\sekars\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.14.0\opentelemetry-sdk-1.14.0.jar;C:\Users\sekars\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.14.0-alpha\opentelemetry-semconv-1.14.0-alpha.jar;C:\Users\sekars\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\sekars\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\sekars\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sekars\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\sekars\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\sekars\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\sekars\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\sekars\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\sekars\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sekars\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\sekars\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\sekars\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-http\4.2.1\selenium-http-4.2.1.jar;C:\Users\sekars\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.2.1\selenium-safari-driver-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-support\4.2.1\selenium-support-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.2.1\selenium-chrome-driver-4.2.1.jar;C:\Users\sekars\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\sekars\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\sekars\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\sekars\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\sekars\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\sekars\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sekars\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sekars\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\sekars\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\sekars\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.2.1\selenium-chromium-driver-4.2.1.jar;C:\Users\sekars\.m2\repository\org\seleniumhq\selenium\selenium-json\4.2.1\selenium-json-4.2.1.jar;C:\Users\sekars\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.0.0\maven-reporting-impl-3.0.0.jar;C:\Users\sekars\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\sekars\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\sekars\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\sekars\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar;C:\Users\sekars\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\sekars\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\sekars\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\sekars\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\sekars\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\sekars\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\sekars\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\sekars\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\sekars\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\sekars\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\sekars\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\sekars\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\sekars\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\sekars\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\sekars\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\sekars\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\sekars\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\sekars\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\sekars\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.0\maven-shared-utils-3.2.0.jar;C:\Users\sekars\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\sekars\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.7\doxia-sink-api-1.7.jar;C:\Users\sekars\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.7\doxia-logging-api-1.7.jar;C:\Users\sekars\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.7.4\doxia-decoration-model-1.7.4.jar;C:\Users\sekars\.m2\repository\org\apache\maven\doxia\doxia-core\1.7\doxia-core-1.7.jar;C:\Users\sekars\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-30\plexus-container-default-1.0-alpha-30.jar;C:\Users\sekars\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\sekars\.m2\repository\org\apache\httpcomponents\httpclient\4.0.2\httpclient-4.0.2.jar;C:\Users\sekars\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\sekars\.m2\repository\org\apache\httpcomponents\httpcore\4.0.1\httpcore-4.0.1.jar;C:\Users\sekars\.m2\repository\xmlunit\xmlunit\1.5\xmlunit-1.5.jar;C:\Users\sekars\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.7.4\doxia-site-renderer-1.7.4.jar;C:\Users\sekars\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.7.4\doxia-skin-model-1.7.4.jar;C:\Users\sekars\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.7\doxia-module-xhtml-1.7.jar;C:\Users\sekars\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-7\plexus-i18n-1.0-beta-7.jar;C:\Users\sekars\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\sekars\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\sekars\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\sekars\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\sekars\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\sekars\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\sekars\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\sekars\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\sekars\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\sekars\.m2\repository\sslext\sslext\1.2-0\sslext-1.2-0.jar;C:\Users\sekars\.m2\repository\org\apache\struts\struts-core\1.3.8\struts-core-1.3.8.jar;C:\Users\sekars\.m2\repository\antlr\antlr\2.7.2\antlr-2.7.2.jar;C:\Users\sekars\.m2\repository\org\apache\struts\struts-taglib\1.3.8\struts-taglib-1.3.8.jar;C:\Users\sekars\.m2\repository\org\apache\struts\struts-tiles\1.3.8\struts-tiles-1.3.8.jar;C:\Users\sekars\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\sekars\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\sekars\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\sekars\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sekars\.m2\repository\org\apache\poi\poi\3.12\poi-3.12.jar;C:\Users\sekars\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\sekars\.m2\repository\org\apache\poi\poi-ooxml\3.12\poi-ooxml-3.12.jar;C:\Users\sekars\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.12\poi-ooxml-schemas-3.12.jar;C:\Users\sekars\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\sekars\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\sekars\.m2\repository\com\relevantcodes\extentreports\2.40.2\extentreports-2.40.2.jar;C:\Users\sekars\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\sekars\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\sekars\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\sekars\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\sekars\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\sekars\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar" com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket51639 @w@C:\Users\sekars\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\sekars\AppData\Local\Temp\idea_testng.tmp
+...
+... TestNG 7.4.0 by Cédric Beust (cedric@beust.com)
+...
+
+testcase name: TC001 - Register User
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 63746
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 12, 2022 1:58:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 12, 2022 1:58:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 12, 2022 1:58:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.poi.util.DocumentHelper (file:/C:/Users/sekars/.m2/repository/org/apache/poi/poi-ooxml/3.12/poi-ooxml-3.12.jar) to method com.sun.org.apache.xerces.internal.util.SecurityManager.setEntityExpansionLimit(int)
+WARNING: Please consider reporting this to the maintainers of org.apache.poi.util.DocumentHelper
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+file name: ./keywords/TC001_ClickRegister_Keyword.xlsx
+Keyword = clickByLink
+locator = Register
+method name = quitBrowser
+method name = invokeApp
+method name = loadObjects
+method name = enterById
+method name = clickByClassName
+method name = getTextByXpath
+method name = AlertAccepts
+method name = mouseOverByXpath
+method name = selectById
+method name = clickByName
+method name = clickByXpath
+method name = enterByXpath
+method name = verifyTitle
+method name = clickByLink
+wM = wrappers.GenericWrappers@fc807c1
+locator = Register
+Wrapper is called for clickbyxpath method.....
+file name: ./keywords/TC001_RegisterUser_Keyword.xlsx
+Keyword = enterByXPath
+locator = //*[@id="username"]
+method name = quitBrowser
+method name = invokeApp
+method name = loadObjects
+method name = enterById
+method name = clickByClassName
+method name = getTextByXpath
+method name = AlertAccepts
+method name = mouseOverByXpath
+method name = selectById
+method name = clickByName
+method name = clickByXpath
+method name = enterByXpath
+xpath value= //*[@id="username"]
+data value= tovinu10@icloud.com
+Keyword = enterByXPath
+locator = //*[@id="firstName"]
+method name = quitBrowser
+method name = invokeApp
+method name = loadObjects
+method name = enterById
+method name = clickByClassName
+method name = getTextByXpath
+method name = AlertAccepts
+method name = mouseOverByXpath
+method name = selectById
+method name = clickByName
+method name = clickByXpath
+method name = enterByXpath
+xpath value= //*[@id="firstName"]
+data value= Vinu10
+Keyword = enterByXPath
+locator = //*[@id="lastName"]
+method name = quitBrowser
+method name = invokeApp
+method name = loadObjects
+method name = enterById
+method name = clickByClassName
+method name = getTextByXpath
+method name = AlertAccepts
+method name = mouseOverByXpath
+method name = selectById
+method name = clickByName
+method name = clickByXpath
+method name = enterByXpath
+xpath value= //*[@id="lastName"]
+data value= S10
+Keyword = enterByXPath
+locator = //*[@id="password"]
+method name = quitBrowser
+method name = invokeApp
+method name = loadObjects
+method name = enterById
+method name = clickByClassName
+method name = getTextByXpath
+method name = AlertAccepts
+method name = mouseOverByXpath
+method name = selectById
+method name = clickByName
+method name = clickByXpath
+method name = enterByXpath
+xpath value= //*[@id="password"]
+data value= Buggycars@123
+Keyword = enterByXPath
+locator = //*[@id="confirmPassword"]
+method name = quitBrowser
+method name = invokeApp
+method name = loadObjects
+method name = enterById
+method name = clickByClassName
+method name = getTextByXpath
+method name = AlertAccepts
+method name = mouseOverByXpath
+method name = selectById
+method name = clickByName
+method name = clickByXpath
+method name = enterByXpath
+xpath value= //*[@id="confirmPassword"]
+data value= Buggycars@123
+Keyword = clickByLink
+locator = Register
+method name = quitBrowser
+method name = invokeApp
+method name = loadObjects
+method name = enterById
+method name = clickByClassName
+method name = getTextByXpath
+method name = AlertAccepts
+method name = mouseOverByXpath
+method name = selectById
+method name = clickByName
+method name = clickByXpath
+method name = enterByXpath
+method name = verifyTitle
+method name = clickByLink
+wM = wrappers.GenericWrappers@480ad82c
+locator = Register
+Wrapper is called for clickbyxpath method.....
+Keyword = quitBrowser
+locator =
+method name = quitBrowser
+===== Invoked methods
+    RunScripts.runScripts()[pri:0, instance:keyword.RunScripts@62230c58]
+=====
+sheetname: Buggycars.java = TC002_LoginUser_Data
+testcase name: TC002 - User Login and Logout
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 64484
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 12, 2022 1:58:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 12, 2022 1:58:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 12, 2022 1:58:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+xpath value= /html/body/my-app/header/nav/div/my-login/div/form/div/input[1]
+data value= tovinu10@icloud.com
+xpath value= /html/body/my-app/header/nav/div/my-login/div/form/div/input[2]
+data value= Buggycars@123
+Login Page: Login Button:: XPath value::: null
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/header/nav/div/my-login/div/form/button
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/header/nav/div/my-login/div/ul/li[3]/a
+sheetname: Buggycars.java = TC003_RatingByModel_Data
+testcase name: TC002 - Rate the BuggyCars By Popular Model
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 61160
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 12, 2022 1:58:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 12, 2022 1:58:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 12, 2022 1:58:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+Inside TC002_ClickBuggyRatingLink class .........
+xpath value= /html/body/my-app/header/nav/div/my-login/div/form/div/input[1]
+data value= tovinu10@icloud.com
+xpath value= /html/body/my-app/header/nav/div/my-login/div/form/div/input[2]
+data value= Buggycars@123
+Login Page: Login Button:: XPath value::: null
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/header/nav/div/my-login/div/form/button
+Before clicking Rating link
+BuggyRating Link ::: XPath value = Buggy Rating
+Before clicking Model link
+BuggyRating Link ::: Model value = /html/body/my-app/div/main/my-home/div/div[2]/div/a/img
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/div/main/my-home/div/div[2]/div/a/img
+Before clicking Model Comment
+BuggyRating Link ::: Model Comment = //*[@id="comment"]
+xpath value= //*[@id="comment"]
+data value= Rating the Car by Model
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/div/main/my-model/div/div[1]/div[3]/div[2]/div[2]/div/button
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/header/nav/div/my-login/div/ul/li[3]/a
+sheetname: Buggycars.java = TC003_RatingByMake_Data
+testcase name: TC002 - Rate the BuggyCars By Popular Make
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 52385
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 12, 2022 1:58:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 12, 2022 1:58:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 12, 2022 1:58:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+Inside TC002_ClickBuggyRatingLink class .........
+xpath value= /html/body/my-app/header/nav/div/my-login/div/form/div/input[1]
+data value= tovinu10@icloud.com
+xpath value= /html/body/my-app/header/nav/div/my-login/div/form/div/input[2]
+data value= Buggycars@123
+Login Page: Login Button:: XPath value::: null
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/header/nav/div/my-login/div/form/button
+Before clicking Rating link
+BuggyRating Link ::: XPath value = Buggy Rating
+Before clicking Poular Make link
+BuggyRating Link ::: Make value = /html/body/my-app/div/main/my-home/div/div[1]/div/a/img
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/div/main/my-home/div/div[1]/div/a/img
+Before clicking Poular Make link
+BuggyRating Link ::: Make value = /html/body/my-app/div/main/my-make/div/div[2]/div/div/table/tbody/tr[4]/td[2]/a
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/div/main/my-make/div/div[2]/div/div/table/tbody/tr[4]/td[2]/a
+Before clicking Make Comment
+BuggyRating Link ::: Make Comment = //*[@id="comment"]
+xpath value= //*[@id="comment"]
+data value= Rating the Car by Make
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/div/main/my-model/div/div[1]/div[3]/div[2]/div[2]/div/button
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/header/nav/div/my-login/div/ul/li[3]/a
+sheetname: Buggycars.java = TC005_UpdateUserProfile_Data
+testcase name: TC005 - Update User Profile
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 49749
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 12, 2022 1:58:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Aug 12, 2022 1:58:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+Aug 12, 2022 1:58:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+xpath value= /html/body/my-app/header/nav/div/my-login/div/form/div/input[1]
+data value= tovinu1@icloud.com
+xpath value= /html/body/my-app/header/nav/div/my-login/div/form/div/input[2]
+data value= Buggycars!!!@123
+Login Page: Login Button:: XPath value::: null
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/header/nav/div/my-login/div/form/button
+xpath value= //*[@id="currentPassword"]
+data value= Buggycars!!!@123
+xpath value= //*[@id="newPassword"]
+data value= Buggycars!!!@123
+xpath value= //*[@id="newPasswordConfirmation"]
+data value= Buggycars!!!@123
+Login Page: Login Button:: XPath value::: /html/body/my-app/div/main/my-profile/div/form/div[2]/div/button
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/div/main/my-profile/div/form/div[2]/div/button
+GenericWrappers:: Before clicking XPath Value
+GenericWrappers:: Login button: xpath value::: /html/body/my-app/header/nav/div/my-login/div/ul/li[3]/a
+===== Invoked methods
+    TC002_LoginLogoutUser.loginUserForBuggyCars(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC002_LoginLogoutUser@649bec2e]
+    TC003_RatingByModel.buggyRating(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_RatingByModel@693fe6c9]
+    TC004_RatingByMake.buggyRating(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC004_RatingByMake@34f5090e]
+    TC005_UpdateUserProfile.updateUserProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC005_UpdateUserProfile@31e5415e]
+=====
+
+===============================================
+Suite
+Total tests run: 5, Passes: 5, Failures: 0, Skips: 0
+===============================================
+
+
+Process finished with exit code 0
