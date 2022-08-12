@@ -21,6 +21,7 @@ I am following the Hybrid Framework using both Keyword driven and POM Framework 
 •	selenium-chrome-driver (drivers are configurable. Just mention the driver name in the TestCase class. Any driver can be added and just mention the dependency in pom.xml)
 •	Build Tool - Maven: 3.0.0
 •	Reporting Tool - Extentreports: 2.40.2
+•	IntelliJ IDEA 2022.1.2 (Community Edition)
 
 # Steps to execute the Test
 1. Download the Project
